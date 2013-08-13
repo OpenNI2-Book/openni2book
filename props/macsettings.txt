@@ -1,0 +1,17 @@
+HEADER_SEARCH_PATHS
+/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Include /Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Include /usr/local/include
+
+
+LIBRARY_SEARCH_PATHS
+$(inherited) /Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Redist /Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Redist /usr/local/lib
+
+
+OTHER_LDFLAGS
+-lopencv_core -lopencv_highgui -lopencv_imgproc
+
+
+GCC_VERSION = com.apple.compilers.llvmgcc42
+
+
+DYLD_LIBRARY_PATH
+/Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Redist:/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Redist

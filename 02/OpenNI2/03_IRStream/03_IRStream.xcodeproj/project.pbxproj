@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7EE56A41797AB9E005059FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7EE56A31797AB9E005059FA /* main.cpp */; };
+		B7EE56A61797AB9E005059FA /* _3_IRStream.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7EE56A51797AB9E005059FA /* _3_IRStream.1 */; };
+		B7EE56AD1797ABAD005059FA /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE56AC1797ABAD005059FA /* libOpenNI2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7EE569E1797AB9E005059FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B7EE56A61797AB9E005059FA /* _3_IRStream.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B7EE56A01797AB9E005059FA /* 03_IRStream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03_IRStream; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EE56A31797AB9E005059FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B7EE56A51797AB9E005059FA /* _3_IRStream.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _3_IRStream.1; sourceTree = "<group>"; };
+		B7EE56AC1797ABAD005059FA /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI2.dylib; path = "../../../../../OpenNI2/OpenNI-MacOSX-x64-2.2/Redist/libOpenNI2.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7EE569D1797AB9E005059FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE56AD1797ABAD005059FA /* libOpenNI2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7EE56971797AB9E005059FA = {
+			isa = PBXGroup;
+			children = (
+				B7EE56AC1797ABAD005059FA /* libOpenNI2.dylib */,
+				B7EE56A21797AB9E005059FA /* 03_IRStream */,
+				B7EE56A11797AB9E005059FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EE56A11797AB9E005059FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE56A01797AB9E005059FA /* 03_IRStream */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EE56A21797AB9E005059FA /* 03_IRStream */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE56A31797AB9E005059FA /* main.cpp */,
+				B7EE56A51797AB9E005059FA /* _3_IRStream.1 */,
+			);
+			path = 03_IRStream;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7EE569F1797AB9E005059FA /* 03_IRStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EE56A91797AB9E005059FA /* Build configuration list for PBXNativeTarget "03_IRStream" */;
+			buildPhases = (
+				B7EE569C1797AB9E005059FA /* Sources */,
+				B7EE569D1797AB9E005059FA /* Frameworks */,
+				B7EE569E1797AB9E005059FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 03_IRStream;
+			productName = 03_IRStream;
+			productReference = B7EE56A01797AB9E005059FA /* 03_IRStream */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EE56981797AB9E005059FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "中村 薫";
+			};
+			buildConfigurationList = B7EE569B1797AB9E005059FA /* Build configuration list for PBXProject "03_IRStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7EE56971797AB9E005059FA;
+			productRefGroup = B7EE56A11797AB9E005059FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EE569F1797AB9E005059FA /* 03_IRStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EE569C1797AB9E005059FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE56A41797AB9E005059FA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7EE56A71797AB9E005059FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7EE56A81797AB9E005059FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7EE56AA1797AB9E005059FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Include",
+					"/Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Redist",
+					"/Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Redist",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7EE56AB1797AB9E005059FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Include",
+					"/Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kaorun55/work/OpenNI2/NiTE-MacOSX-x64-2.2/Redist",
+					"/Users/kaorun55/work/OpenNI2/OpenNI-MacOSX-x64-2.2/Redist",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7EE569B1797AB9E005059FA /* Build configuration list for PBXProject "03_IRStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EE56A71797AB9E005059FA /* Debug */,
+				B7EE56A81797AB9E005059FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EE56A91797AB9E005059FA /* Build configuration list for PBXNativeTarget "03_IRStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EE56AA1797AB9E005059FA /* Debug */,
+				B7EE56AB1797AB9E005059FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7EE56981797AB9E005059FA /* Project object */;
+}

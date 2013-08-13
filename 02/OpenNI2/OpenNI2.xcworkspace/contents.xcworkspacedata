@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:07_DeviceIO/07_DeviceIO.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:06_MultiDevice/06_MultiDevice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05_EnumDevice/05_EnumDevice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:04_Recorder/04_Recorder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:03_IRStream/03_IRStream.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:02_DepthStream/02_DepthStream.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:00_Version/00_Version.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:00_Version/../01_ColorStream/01_ColorStream.xcodeproj">
+   </FileRef>
+</Workspace>
