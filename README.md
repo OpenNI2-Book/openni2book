@@ -17,6 +17,8 @@
    - Windows 8 Pro 64ビット
    - Visual Studio Express 2012 for Windows DesktopおよびVisual C++ 2010 Express
    - OpenCV 2.4.6
+     - ほかのバージョンを利用する際は 262ページ以降を参照してください
+     - サンプルプロジェクトでの設定はpropsフォルダ以下のファイルにあります
  - その他 ARM Linuxや Raspberry Pi 環境での利用についても解説しています。
 
 ## ライセンス
