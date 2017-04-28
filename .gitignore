@@ -101,3 +101,5 @@ build/
 
 # Windows 
 Thumbs.db
+*.db
+*.opendb
