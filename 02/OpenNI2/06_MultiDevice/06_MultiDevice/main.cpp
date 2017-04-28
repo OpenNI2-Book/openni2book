@@ -103,7 +103,7 @@ public:
     openni::Array<openni::DeviceInfo> deviceInfoList;
 		openni::OpenNI::enumerateDevices( &deviceInfoList );
     
-		std::cout << "接続されているデバイスの数 : " << deviceInfoList.getSize() << std::endl;
+		std::cout << "Connected device counnt : " << deviceInfoList.getSize() << std::endl;
 		for ( int i = 0; i < deviceInfoList.getSize(); ++i ) {
 			std::cout << deviceInfoList[i].getName() << ", "
                 << deviceInfoList[i].getVendor() << ", "

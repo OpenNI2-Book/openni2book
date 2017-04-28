@@ -55,22 +55,18 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\props\OpenCV.props" />
     <Import Project="..\..\..\props\OpenNI2_x86.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\props\OpenCV.props" />
     <Import Project="..\..\..\props\OpenNI2_x86.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\props\OpenCV.props" />
     <Import Project="..\..\..\props\OpenNI2_x86.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\props\OpenCV.props" />
     <Import Project="..\..\..\props\OpenNI2_x86.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -149,7 +145,19 @@
   <ItemGroup>
     <ClCompile Include="06_MultiDevice\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets" Condition="Exists('..\packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets')" />
+    <Import Project="..\packages\opencv3.1.1.0\build\native\opencv3.1.targets" Condition="Exists('..\packages\opencv3.1.1.0\build\native\opencv3.1.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\opencv3.1.1.0\build\native\opencv3.1.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\opencv3.1.1.0\build\native\opencv3.1.targets'))" />
+  </Target>
 </Project>
