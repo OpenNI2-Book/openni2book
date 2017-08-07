@@ -78,7 +78,7 @@ private:
                                  CV_16UC1, (unsigned short*)depthFrame.getData() );
     
     // 0-10000mmまでのデータを0-255(8bit)にする
-    depthImage.convertTo( depthImage, CV_8U, 255.0 / 10000 );
+    depthImage.convertTo( depthImage, CV_8U, 255.0 / 1000 );
     
     // 中心点の距離を表示する
     showCenterDistance( depthImage, depthFrame );
